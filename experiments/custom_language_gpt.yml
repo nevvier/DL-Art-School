@@ -139,7 +139,7 @@ eval:
 
 logger:
   print_freq: 100 # TODO: set this to epoch size
-  save_checkpoint_freq: 500 # CHANGEME: especially you should increase this it's really slow
+  save_checkpoint_freq: 100 # CHANGEME: especially you should increase this it's really slow
   visuals: [gen, mel] #TODO: figure this out
   visual_debug_rate: 500
   is_mel_spectrogram: true
